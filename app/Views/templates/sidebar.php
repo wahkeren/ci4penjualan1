@@ -22,7 +22,7 @@
     <?php if (in_groups('admin')) : ?>
         <!-- Nav Item - Data user -->
         <li class="nav-item">
-            <a class="nav-link" href="<?= base_url('admin'); ?>">
+            <a class="nav-link" href="<?= base_url('user'); ?>">
                 <i class="fas fa-fw fa-chart-area"></i>
                 <span>Data User</span></a>
         </li>
@@ -36,7 +36,7 @@
         </a>
         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
             <div class="bg-white py-2 collapse-inner rounded">
-                <a class="collapse-item" href="buttons.html">Data Barang</a>
+                <a class="collapse-item" href="<?= base_url('data/barang'); ?>">Data Barang</a>
                 <a class="collapse-item" href="cards.html">Data Kategori</a>
                 <a class="collapse-item" href="cards.html">Data Jenis</a>
             </div>
